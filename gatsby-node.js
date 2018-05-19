@@ -4,7 +4,14 @@ const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators
+  const { createPage, createRedirect } = boundActionCreators
+
+  createRedirect({
+    fromPath: `/index.html`,
+    isPermanent: true,
+    redirectInBrowser: true,
+    toPath: `/`,
+  })
 
   return new Promise((resolve, reject) => {
     const blogPost = path.resolve('./src/templates/blog-post.js')
