@@ -7,6 +7,7 @@ class Template extends React.Component {
   render() {
     const { location, children } = this.props
     let header
+    const TITLE = 'Aesthetic Go'
 
     let rootPath = `/`
     if (typeof __PREFIX_PATHS__ !== `undefined` && __PREFIX_PATHS__) {
@@ -30,7 +31,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            {TITLE}
           </Link>
         </h1>
       )
@@ -51,7 +52,7 @@ class Template extends React.Component {
             }}
             to={'/'}
           >
-            Gatsby Starter Blog
+            {TITLE}
           </Link>
         </h3>
       )
