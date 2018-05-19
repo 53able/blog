@@ -1,0 +1,2 @@
+webpackJsonp([93260003271633],{484:function(t,a){t.exports={data:{site:{siteMetadata:{title:"My Blog by Gatsby",author:"Go Tadano"}},markdownRemark:{id:"/Users/tadano-go/git/53able/blog/src/pages/gogo/index.md absPath of file >>> MarkdownRemark",html:"<h1>今日はGatsbyを使ったブログシステムを作った</h1>",frontmatter:{title:"GoGO!",date:"May 19, 2018"}}},pathContext:{slug:"/gogo/",previous:{fields:{slug:"/hi-folks/"},frontmatter:{title:"New Beginnings"}},next:null}}}});
+//# sourceMappingURL=path---gogo-5150f94b12e59c1eae89.js.map
